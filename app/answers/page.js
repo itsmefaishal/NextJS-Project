@@ -5,7 +5,7 @@ import Loader from "./loading";
 
 async function getData() {
   try {
-    const res = await fetch("https://next-js-project-bhabhaai.vercel.app//api/questions");
+    const res = await fetch("https://next-js-project-bhabhaai.vercel.app/api/questions");
 
     if (!res.ok) {
       return <ErrorPage />
